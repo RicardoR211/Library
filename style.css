@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #f8f9fa; /* Cor de fundo */
+}
+
+.header > button{
+    position: absolute;
+    right: 10%;
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-left:  10%;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card {
+    width: 250px;
+    height: auto; /* permite que a altura se ajuste ao conteúdo */
+    background-color: #fff; /* fundo branco */
+    border-radius: 10px; /* bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+    padding: 20px; /* espaçamento interno */
+    margin: 20px; /* espaçamento externo */
+    text-align: center; /* centraliza o texto */
+}
+
+.cardTitle {
+    font-size: 1.5em; /* tamanho da fonte do título */
+    color: #333; /* cor do texto */
+    margin-bottom: 10px; /* espaçamento abaixo do título */
+}
+
+.cardAuthor {
+    font-size: 1.2em; /* tamanho da fonte do autor */
+    color: #777; /* cor do texto do autor */
+    margin-bottom: 10px; /* espaçamento abaixo do autor */
+}
+
+.cardPages,
+.cardRead {
+    font-size: 1em; /* tamanho da fonte para páginas e leitura */
+    color: #555; /* cor do texto */
+    margin-bottom: 10px; /* espaçamento abaixo dos textos */
+}
+
+#buttonStatus{
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4CAF50; /* cor de fundo do botão */
+    color: white; /* cor do texto do botão */
+    border: none; /* sem borda */
+    border-radius: 5px; /* bordas arredondadas do botão */
+    padding: 10px 15px; /* espaçamento interno do botão */
+    cursor: pointer; /* cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s; /* transição suave para a cor de fundo */
+}
+
+button:hover {
+    background-color: #45a049; /* cor de fundo ao passar o mouse */
+}
+
+.fAddBook{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form {
+    width: 250px;
+    height: 200px;
+    background-color: #f0f0f0; /* Cinza claro */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra mais aparente */
+    padding: 15px; /* Espaçamento interno */
+    display: flex; /* Para centralizar conteúdo se necessário */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    transition: transform 0.2s; /* Transição suave para hover */
+}
+
+.form:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente no hover */
+}
+
+.form > *{
+    margin: 10px;
+}
+
+label{
+    display: block;
+}
+
+#bonito{
+    display: flex;
+}
